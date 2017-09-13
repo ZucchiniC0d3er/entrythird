@@ -1,0 +1,64 @@
+#mainNav{
+	background: #2e3192;
+}
+#mainNav .navbar-toggler:hover {
+    color: #fff;
+    border-color: #5762d5;
+    background-color: #5762d5;
+}
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+    color: #5762d5;
+    outline: 0;
+}
+#mainNav .navbar-toggler:focus {
+    color: #fff;
+}
+header.masthead {
+    background: #6e7dab;
+}
+hr.head-hr{
+    max-width: 250px;
+    margin: 25px auto 30px;
+    padding: 0;
+    text-align: center;
+    border: none;
+    border-top: solid 5px;
+}
+section.about {
+    color: #32292f;
+    background: #fff;
+}
+section.contact {
+    color: #fff;
+    background: #5762d5;
+}
+.about-text{
+   /*max-width: 250px;*/
+    margin: 25px auto 30px;
+    padding: 0;
+    text-align: center;
+    border: none;
+}
+.btn-outline:hover {
+    color: #0056b3;
+    border: solid 2px #fff;
+    background: #fff;
+}
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active {
+    color: #fff;
+    border-radius: 3px;
+    background: #2e3192;
+}
+.parallax {
+    /* The image used */
+    background-image: url("../img/bench.jpeg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

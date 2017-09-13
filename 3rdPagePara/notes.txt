@@ -1,0 +1,1 @@
+--for social media btns I had to override the .btn-outline:hover css to change the icon color to blue
